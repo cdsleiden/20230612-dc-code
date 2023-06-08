@@ -5,4 +5,4 @@ This repository is used to share code that Instructors explain in the
 
 [dc-leiden]: https://leidenuniversitylibrary.github.io/2023-06-12-ldev-leiden/
 
-Test autopush EK
+Test autopush EK: success!
