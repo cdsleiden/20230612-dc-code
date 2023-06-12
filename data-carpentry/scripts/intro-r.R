@@ -82,4 +82,11 @@ hh_members[ hh_members > 5 ]
 hh_members[ hh_members >= 4 | hh_members <= 7]
 hh_members[ hh_members >= 4 & hh_members <= 7]
 
-posessions[ posessions == 'radio']
+posessions[ posessions == 'radio' | posessions == 'car']
+posessions %in%  c('radio','car')
+
+posessions[ posessions %in%  c('radio','car') ]
+
+# A vector containing a missing value
+rooms <- c( 2,1,1,NA,7 )
+
