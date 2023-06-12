@@ -89,4 +89,9 @@ posessions[ posessions %in%  c('radio','car') ]
 
 # A vector containing a missing value
 rooms <- c( 2,1,1,NA,7 )
+mean(rooms)
+mean( rooms , na.rm = TRUE )
 
+is.na(rooms)
+rooms[ !is.na(rooms) ]
+sum( is.na(rooms) )
