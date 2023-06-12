@@ -21,5 +21,5 @@ area_hectares <- 10 # change the value of area_hectares
 
 area_acres <- 2.47 * area_hectares # store area in acres in a new object
 
-area_hectares <- 50 # 
+area_hectares <- 50 
 
