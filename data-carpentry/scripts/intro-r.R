@@ -60,3 +60,9 @@ posessions <- c(posessions, "mobile_phone") # add an extra element to te end of 
 posessions <- c("car", posessions) # add extra element at the beginning of the vector
 posessions
 
+## EXERCISE 3
+num_char <- c(1, 2, 3, "a")
+
+
+
+
