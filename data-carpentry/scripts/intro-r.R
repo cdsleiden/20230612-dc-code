@@ -46,3 +46,5 @@ hh_members <- c(3, 7, 10, 6) # using the c() we create a vector of 4 numbers
 hh_members
 respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks") # create a vector of 3 character elements
 respondent_wall_type
+
+length(hh_members) # return the number of elements in the hh_members vector
