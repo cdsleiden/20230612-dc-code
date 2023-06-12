@@ -27,9 +27,9 @@ area_hectares <- 50
 r_length <- 5.6
 r_width <- 2.3
 r_area <- r_length * r_width
-r_area
+r_area 
 
 # Functions
-
-
+round(3.14159) # run the round() function with pi as an argument
+round(pi) # R knows pi
 
