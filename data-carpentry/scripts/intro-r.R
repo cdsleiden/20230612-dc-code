@@ -69,5 +69,15 @@ tricky <- c(1, 2, 3, "4")
 ## Subsetting
 
 respondent_wall_type[2] # retrieves the second item in the vector 
-respondent_wall_type[ c(1,2) ]
+respondent_wall_type[ c(1,2) ] # retrieves items 1 and 2
 
+more_wall_types <- respondent_wall_type[ c(1,2,3,2,2,3,1) ]
+
+
+hh_members
+hh_members[ c( TRUE , FALSE , TRUE , FALSE) ]
+less_members <- hh_members[ c( TRUE , FALSE , TRUE , FALSE) ]
+hh_members > 5
+hh_members[ hh_members > 5 ]
+hh_members[ hh_members >= 4 | hh_members <= 7]
+hh_members[ hh_members >= 4 & hh_members <= 7]
