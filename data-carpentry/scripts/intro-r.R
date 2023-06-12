@@ -55,4 +55,5 @@ typeof(respondent_wall_type) # what type of object is respondent_wall_type?
 
 str(hh_members) # str() provides an overview of the structure of the hh_members object
 
-
+posessions <- c("bicycle", "radio", "television") # create a new character vector with posessions
+pos
