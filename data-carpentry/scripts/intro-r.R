@@ -68,6 +68,6 @@ tricky <- c(1, 2, 3, "4")
 
 ## Subsetting
 
-respondent_wall_type[2]
-
+respondent_wall_type[2] # retrieves the second item in the vector 
+respondent_wall_type[ c(1,2) ]
 
