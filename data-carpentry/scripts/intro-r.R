@@ -23,3 +23,8 @@ area_acres <- 2.47 * area_hectares # store area in acres in a new object
 
 area_hectares <- 50 
 
+## EXERCISE 1
+r_length <- 5.6
+r_width <- 2.3
+r_area <- r_length * r_width
+r_area
