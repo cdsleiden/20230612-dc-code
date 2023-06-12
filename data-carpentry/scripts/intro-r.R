@@ -43,5 +43,6 @@ floor(1.624)
 
 # Vectors and data types
 hh_members <- c(3, 7, 10, 6) # using the c() we create a vector of 4 numbers
+hh_members
 
 
