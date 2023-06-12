@@ -48,3 +48,6 @@ respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks") # create a vect
 respondent_wall_type
 
 length(hh_members) # return the number of elements in the hh_members vector
+length(respondent_wall_type) # no. of elements in the respondent_wall_type vector
+
+
