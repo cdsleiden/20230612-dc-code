@@ -37,3 +37,11 @@ args(round) # show the arguments of the round() function
 round(3.14159, digits = 2) # round pi to 2 decimal points using the digits argument
 round(3.14159, 2) # we can remove the name of the argument when using exactly the same order
 round(digits = 2, x = 3.14159) # we can switch the orde if we name the arguments
+
+# EXERCISE 2
+floor(1.624)
+
+# Vectors and data types
+hh_members <- c(3, 7, 10, 6) # using the c() we create a vector of 4 numbers
+
+
