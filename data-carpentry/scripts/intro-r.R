@@ -28,3 +28,8 @@ r_length <- 5.6
 r_width <- 2.3
 r_area <- r_length * r_width
 r_area
+
+# Functions
+
+
+
