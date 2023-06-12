@@ -13,5 +13,7 @@ install.packages("tidyverse")
 123/56
 
 area_hectares <- 1.0 # assign 1.0 to an object called area_hectares
+area_hectares # typing the name of the object prints the value
 
+2.47 * area_hectares # convert area into acres
 
