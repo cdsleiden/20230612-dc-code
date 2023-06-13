@@ -82,4 +82,7 @@ interviews_vil <- interviews %>%
 
 interviews_vil
 
+# split - apply-combine 
+
+
 
