@@ -118,3 +118,4 @@ interviews %>%
    count(village)
  
  # reshaping with tidyr
+ 
