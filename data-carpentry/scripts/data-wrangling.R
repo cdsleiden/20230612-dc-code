@@ -73,4 +73,11 @@ interviews %>%
   mutate(people_per_room = no_membrs / rooms) %>%
   select(people_per_room)
 
+# Exercise 2 
 
+interviews_vil <- interviews %>%
+  mutate(total_meals = no_meals * no_membrs) %>%
+  select(village, total_meals) %>%
+  filter(total_meals > 20 )
+
+interviews_vil
