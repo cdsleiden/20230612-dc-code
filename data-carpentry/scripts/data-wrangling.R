@@ -54,4 +54,10 @@ interviews_ch <- interviews %>%
   filter(village == "Chirodzo") %>%
   select(village:respondent_wall_type)
 
+# Exercise 1
 
+interviews_ma <- interviews %>%
+  filter(memb_assoc == "yes") %>%
+  select(affect_conflicts, liv_count, no_meals)
+
+interviews_ma
