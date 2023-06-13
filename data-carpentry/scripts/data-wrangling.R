@@ -129,4 +129,7 @@ interviews %>%
  
  # convert to long(er) format 
  
- 
+ interviews_long <- interviews_wide  %>%
+   pivot_longer(cols = c(muddaub, cement, sunbricks, burntbricks),
+                names_to = "respondent_wall_type", 
+                values_to = "wall_type_logical")
