@@ -17,3 +17,9 @@ dataset, which has columns that include:
 - interview_date
 - no_membrs
 - years_liv
+
+These are my favourite variables ranked:
+
+1. no_membrs
+2. years_liv
+3. interview_date
