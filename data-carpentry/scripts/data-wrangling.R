@@ -89,6 +89,8 @@ interviews %>%
   group_by(village) %>%
   summarize(avg_no_membrs = mean(no_membrs))
 
-
+interviews %>%
+  group_by(village, memb_assoc) %>%
+  summarise(avg_no_membrs = mean(no_membrs))
 
 
