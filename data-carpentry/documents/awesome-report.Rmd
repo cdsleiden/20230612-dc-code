@@ -24,3 +24,11 @@ These are my favourite variables ranked:
 1. no_membrs
 2. years_liv
 3. interview_date
+
+## Materials and methods
+
+We used the *SAFI* dataset, which we downloaded from the source.
+
+```
+download.file("https://ndownloader.figshare.com/files/11492171", "data/SAFI_clean.csv", mode = "wb")
+```
