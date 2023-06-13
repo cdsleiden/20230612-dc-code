@@ -72,3 +72,5 @@ interviews %>%
   filter(!is.na(memb_assoc)) %>%
   mutate(people_per_room = no_membrs / rooms) %>%
   select(people_per_room)
+
+
