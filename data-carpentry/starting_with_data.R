@@ -28,3 +28,5 @@ class(interviews[ , 2 ])
 
 items_owned <- interviews$items_owned # values in this column 'items_owned' as a vector
 class(interviews$items_owned)
+
+# Exercise 1
