@@ -48,3 +48,8 @@ interviews_ch <-select(interviews_temp, village:respondent_wall_type)
 interviews_ch <-select(filter(interviews, village == "Chirodzo"),
                        village:respondent_wall_type)
 
+# Use pipes 
+
+interviews_ch <- interviews %>% 
+  filter(village == "Chirodzo") %>%
+  select(village:respondent_wall_type)
