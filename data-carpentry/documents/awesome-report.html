@@ -398,19 +398,51 @@ source.</p>
 <pre class="r"><code>interviews %&gt;%
   filter(!is.na(memb_assoc)) %&gt;% 
   group_by(village, memb_assoc) %&gt;% 
-  summarise(mean_no_membrs = mean(no_membrs))</code></pre>
+  summarise(mean_no_membrs = mean(no_membrs)) %&gt;% 
+  knitr::kable()</code></pre>
 <pre><code>## `summarise()` has grouped output by &#39;village&#39;. You can override using the
 ## `.groups` argument.</code></pre>
-<pre><code>## # A tibble: 6 × 3
-## # Groups:   village [3]
-##   village  memb_assoc mean_no_membrs
-##   &lt;chr&gt;    &lt;chr&gt;               &lt;dbl&gt;
-## 1 Chirodzo no                   8.06
-## 2 Chirodzo yes                  7.82
-## 3 God      no                   7.13
-## 4 God      yes                  8   
-## 5 Ruaca    no                   7.18
-## 6 Ruaca    yes                  9.5</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">village</th>
+<th align="left">memb_assoc</th>
+<th align="right">mean_no_membrs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Chirodzo</td>
+<td align="left">no</td>
+<td align="right">8.062500</td>
+</tr>
+<tr class="even">
+<td align="left">Chirodzo</td>
+<td align="left">yes</td>
+<td align="right">7.818182</td>
+</tr>
+<tr class="odd">
+<td align="left">God</td>
+<td align="left">no</td>
+<td align="right">7.133333</td>
+</tr>
+<tr class="even">
+<td align="left">God</td>
+<td align="left">yes</td>
+<td align="right">8.000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Ruaca</td>
+<td align="left">no</td>
+<td align="right">7.178571</td>
+</tr>
+<tr class="even">
+<td align="left">Ruaca</td>
+<td align="left">yes</td>
+<td align="right">9.500000</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
