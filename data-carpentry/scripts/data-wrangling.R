@@ -85,4 +85,8 @@ interviews_vil
 # split - apply-combine 
 
 # average HH size by village 
+interviews %>%
+  group_by(village) %>%
+  summarize(avg_no_membrs = mean(no_membrs))
+
 
