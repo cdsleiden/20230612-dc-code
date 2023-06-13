@@ -43,7 +43,7 @@ download.file("https://ndownloader.figshare.com/files/11492171", "data/SAFI_clea
 
 Table!
 
-```{r}
+```{r interviews-table}
 interviews %>%
   filter(!is.na(memb_assoc)) %>% 
   group_by(village, memb_assoc) %>% 
