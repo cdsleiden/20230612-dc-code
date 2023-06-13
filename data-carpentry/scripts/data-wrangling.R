@@ -119,3 +119,12 @@ interviews %>%
  
  # reshaping with tidyr
  
+ # convert to wide(r) format
+ interviews_wide <- interviews %>%
+   mutate(wall_type_logical = TRUE) %>%
+   pivot_wider( names_from = respondent_wall_type,
+                values_from = wall_type_logical, 
+                values_fill = FALSE )
+
+ 
+ 
