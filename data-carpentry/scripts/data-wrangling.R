@@ -36,3 +36,5 @@ filter(interviews, village == "Chirodzo" |
          no_meals >2 )
 
 # Pipes 
+
+# filter & select with intermediate steps 
