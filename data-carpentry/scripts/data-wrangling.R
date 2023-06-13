@@ -62,3 +62,13 @@ interviews_ma <- interviews %>%
 
 interviews_ma
 
+# average number of HH members per room
+
+interviews %>%
+  mutate(people_per_room = no_membrs / rooms ) %>%
+  select(people_per_room)
+
+interviews %>%
+  filter(!is.na(memb_assoc)) %>%
+  mutate(people_per_room = no_membrs / rooms) %>%
+  select(people_per_room)
