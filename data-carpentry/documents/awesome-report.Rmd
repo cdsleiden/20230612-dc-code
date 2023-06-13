@@ -100,4 +100,29 @@ interviews_plotting %>%
 
 #### Barplots
 
+```{r barplot-1}
+interviews_plotting %>% 
+  ggplot(aes(x = respondent_wall_type)) +
+  geom_bar(aes(fill = village), position = "dodge")
+```
+
+```{r}
+percent_wall_type <- interviews_plotting %>% 
+  filter(respondent_wall_type != "cement") %>% 
+  count(village, respondent_wall_type) %>% 
+  group_by(village) %>% 
+  mutate(percent = (n / sum(n)) * 100) %>% 
+  ungroup()
+```
+
+```{r percent-bar}
+percent_wall_type %>% 
+  ggplot(aes(
+    x = village, 
+    y = percent, 
+    fill = respondent_wall_type)
+  ) +
+  geom_bar(position = "dodge")
+```
+
 
