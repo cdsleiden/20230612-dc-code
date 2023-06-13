@@ -99,4 +99,12 @@ interviews %>%
    summarise(avg_no_membrs = mean(no_membrs), 
              min_room = min(rooms))
  
+ #Exercise 3 
  
+ interviews %>%
+   group_by(village) %>%
+   summarise(avg_no_membrs = mean(no_membrs),
+             min_no_membrs = min(no_membrs), 
+             max_no_membrs = max(no_membrs),
+             n = n()
+   )
