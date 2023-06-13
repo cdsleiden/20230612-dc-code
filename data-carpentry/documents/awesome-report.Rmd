@@ -62,4 +62,25 @@ interviews_plotting %>%
     geom_point(alpha = 0.3)
 ```
 
+Okay, scatter plot isn't the best for this...
 
+```{r}
+interviews_plotting %>% 
+  ggplot(aes(x = no_membrs, y = number_items)) +
+    geom_jitter(
+      alpha = 0.3,
+      width = 0.2,
+      height = 0.2,
+      colour = "blue"
+    )
+```
+
+```{r}
+interviews_plotting %>% 
+  ggplot(aes(x = no_membrs, y = number_items, col = village)) +
+    geom_jitter(
+      alpha = 0.3,
+      width = 0.2,
+      height = 0.2
+    )
+```
