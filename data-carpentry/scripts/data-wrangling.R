@@ -38,3 +38,7 @@ filter(interviews, village == "Chirodzo" |
 # Pipes 
 
 # filter & select with intermediate steps 
+
+interviews_temp <- filter(interviews, village == "Chirodzo")
+
+interviews_ch <-select(interviews_temp, village:respondent_wall_type)
