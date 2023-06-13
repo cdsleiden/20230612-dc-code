@@ -84,5 +84,5 @@ interviews_vil
 
 # split - apply-combine 
 
-
+# average HH size by village 
 
