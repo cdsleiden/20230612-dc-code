@@ -45,4 +45,5 @@ interviews_ch <-select(interviews_temp, village:respondent_wall_type)
 
 
 # nest functions 
-
+interviews_ch <-select(filter(interviews, village == "Chirodzo"),
+                       village:respondent_wall_type)
