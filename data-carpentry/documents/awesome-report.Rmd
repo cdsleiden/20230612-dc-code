@@ -39,3 +39,14 @@ We used the *SAFI* dataset, which we downloaded from the source.
 download.file("https://ndownloader.figshare.com/files/11492171", "data/SAFI_clean.csv", mode = "wb")
 ```
 
+## Results
+
+Table!
+
+```{r}
+interviews %>%
+  filter(!is.na(memb_assoc)) %>% 
+  group_by(village, memb_assoc) %>% 
+  summarise(mean_no_membrs = mean(no_membrs))
+```
+
