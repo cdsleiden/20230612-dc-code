@@ -14,3 +14,6 @@ interviews <- read_csv(here("data", "SAFI_clean.csv"), na = "NULL")
 # view(interviews)
 
 # Select subset of columns 
+select(interviews, village, no_membrs, months_lack_food)
+
+
