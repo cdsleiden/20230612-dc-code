@@ -98,3 +98,6 @@ interviews_plotting %>%
     )
 ```
 
+#### Barplots
+
+
