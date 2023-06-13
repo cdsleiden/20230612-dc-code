@@ -59,4 +59,8 @@ plot(members_assoc)
 
 # Dates
 
+library(lubridate)
 
+dates <- interviews$interview_date
+
+interviews$months <- month(dates)
