@@ -25,3 +25,5 @@ select(interviews, village:respondent_wall_type)
 # keep only obs. from Chirodzo 
 filter(interviews, village == "Chirodzo")
 
+# filtering with AND statement
+
