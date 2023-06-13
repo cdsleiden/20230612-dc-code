@@ -133,3 +133,6 @@ interviews %>%
    pivot_longer(cols = c(muddaub, cement, sunbricks, burntbricks),
                 names_to = "respondent_wall_type", 
                 values_to = "wall_type_logical")
+
+ interviews_long
+View(interviews_long) 
