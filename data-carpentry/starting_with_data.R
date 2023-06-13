@@ -35,3 +35,7 @@ interview_100 <- interviews[ 100 , ]
 
 n_row <- nrow(interviews)
 interview_last <- interviews[ n_row ,  ]
+
+# Factors
+
+
