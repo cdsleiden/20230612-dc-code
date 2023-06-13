@@ -47,3 +47,16 @@ plot(wall_types)
 levels(wall_types) # see the unique options
 levels(wall_types)[1] <- 'Burntbricks'
 levels(wall_types)
+
+# Exercise 3
+
+members_assoc <- factor(interviews$memb_assoc)
+nlevels(members_assoc)
+levels(members_assoc)
+levels(members_assoc)[1] <- "No"
+levels(members_assoc)[2] <- "Yes"
+plot(members_assoc)
+
+# Dates
+
+
