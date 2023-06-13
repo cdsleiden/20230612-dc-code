@@ -53,3 +53,5 @@ interviews_ch <-select(filter(interviews, village == "Chirodzo"),
 interviews_ch <- interviews %>% 
   filter(village == "Chirodzo") %>%
   select(village:respondent_wall_type)
+
+
