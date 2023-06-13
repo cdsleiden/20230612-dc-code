@@ -94,4 +94,7 @@ interviews %>%
   summarise(avg_no_membrs = mean(no_membrs)) %>%
   filter(!is.na(memb_assoc))
 
-
+ interviews %>%
+   group_by(village, memb_assoc) %>%
+   summarise(avg_no_membrs = mean(no_membrs), 
+             min_room = min(rooms))
