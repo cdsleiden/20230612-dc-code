@@ -20,5 +20,4 @@ select(interviews, village, no_membrs, months_lack_food)
 interviews[c("village", "no_membrs", "months_lack_food")]
 
 # select series of columns
-
-
+select(interviews, village:respondent_wall_type)
