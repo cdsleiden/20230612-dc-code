@@ -143,7 +143,7 @@ View(interviews_long)
 # Code for data vis 
 
 interviews_plotting <- interviews %>%
-  ## pivot wider by items_owned
+  ## pivot longer by items_owned
   separate_rows(items_owned, sep = ";") %>%
   ## if there were no items listed, changing NA to no_listed_items
   replace_na(list(items_owned = "no_listed_items")) %>%
