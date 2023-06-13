@@ -3,6 +3,12 @@ title: My Awesome Report
 author: Emmet Brickowski
 ---
 
+```{r}
+library(tidyverse)
+library(here)
+interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+```
+
 # Level 1 header
 ## Level 2 header
 ### Level 3 header
@@ -32,3 +38,4 @@ We used the *SAFI* dataset, which we downloaded from the source.
 ```
 download.file("https://ndownloader.figshare.com/files/11492171", "data/SAFI_clean.csv", mode = "wb")
 ```
+
