@@ -61,3 +61,4 @@ interviews_ma <- interviews %>%
   select(affect_conflicts, liv_count, no_meals)
 
 interviews_ma
+
