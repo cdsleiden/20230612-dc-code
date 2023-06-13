@@ -23,5 +23,5 @@ interviews[c("village", "no_membrs", "months_lack_food")]
 select(interviews, village:respondent_wall_type)
 
 # keep only obs. from Chirodzo 
-
+filter(interviews, village == "Chirodzo")
 
