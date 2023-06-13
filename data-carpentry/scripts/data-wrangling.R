@@ -138,3 +138,6 @@ interviews %>%
 
  interviews_long
 View(interviews_long) 
+
+
+# Code for data vis 
