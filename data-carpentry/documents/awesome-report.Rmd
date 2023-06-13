@@ -51,3 +51,12 @@ interviews %>%
   knitr::kable()
 ```
 
+### Data Viz
+
+Here we will create some plots.
+
+```{r}
+interviews_plotting %>% 
+  ggplot()
+```
+
