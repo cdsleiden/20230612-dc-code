@@ -4,6 +4,7 @@ author: Emmet Brickowski
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
