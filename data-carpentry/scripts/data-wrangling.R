@@ -109,4 +109,12 @@ interviews %>%
              n = n()
    )
  
+ # count 
+ interviews %>%
+   group_by(village) %>%
+   count()
+ 
+ interviews %>%
+   count(village)
+ 
  
