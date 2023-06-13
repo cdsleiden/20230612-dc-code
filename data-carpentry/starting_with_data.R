@@ -30,3 +30,8 @@ items_owned <- interviews$items_owned # values in this column 'items_owned' as a
 class(interviews$items_owned)
 
 # Exercise 1
+
+interview_100 <- interviews[ 100 , ]
+
+n_row <- nrow(interviews)
+interview_last <- interviews[ n_row ,  ]
