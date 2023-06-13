@@ -90,3 +90,5 @@ interviews %>%
   summarize(avg_no_membrs = mean(no_membrs))
 
 
+
+
