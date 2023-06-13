@@ -26,4 +26,6 @@ select(interviews, village:respondent_wall_type)
 filter(interviews, village == "Chirodzo")
 
 # filtering with AND statement
-
+filter(interviews, village == "Chirodzo" &
+         rooms > 1 &
+         no_meals > 2)
