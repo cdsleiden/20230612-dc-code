@@ -108,3 +108,5 @@ interviews %>%
              max_no_membrs = max(no_membrs),
              n = n()
    )
+ 
+ 
