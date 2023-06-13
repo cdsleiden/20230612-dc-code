@@ -38,4 +38,12 @@ interview_last <- interviews[ n_row ,  ]
 
 # Factors
 
+wall_types <- factor(interviews$respondent_wall_type)
+wall_types
+nlevels(wall_types)
 
+plot(wall_types)
+
+levels(wall_types) # see the unique options
+levels(wall_types)[1] <- 'Burntbricks'
+levels(wall_types)
